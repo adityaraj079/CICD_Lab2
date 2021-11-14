@@ -6,6 +6,8 @@ public class MyClass2 {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Hello Jenkins");
+		
+		System.out.println("New Build should start");
 
 	}
 
