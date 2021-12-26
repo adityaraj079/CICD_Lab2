@@ -4,4 +4,10 @@
   <artifactId>cicdlab2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>cicdlab2</name>
+  <properties>
+    mvn sonar:sonar \
+  -Dsonar.projectKey=1324657980Adi \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=854282a3514e10c391abeda16908b1f6ab62da50
+  </properties>
 </project>
