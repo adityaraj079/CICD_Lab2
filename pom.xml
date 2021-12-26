@@ -4,8 +4,23 @@
   <artifactId>cicdlab2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>cicdlab2</name>
-    mvn sonar:sonar \
+  <settings>
+  <pluginGroups>
+    <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+  </pluginGroups>
+  <profiles>
+    <profile>
+      <id>sonar</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        mvn sonar:sonar \
   -Dsonar.projectKey=1324657980Adi \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=854282a3514e10c391abeda16908b1f6ab62da50
+  -Dsonar.login=127703ea7d900635493f92d1e6039cac4954807a
+      </properties>
+    </profile>
+  </profiles>
+</settings>
 </project>
