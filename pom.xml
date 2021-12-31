@@ -4,4 +4,11 @@
   <artifactId>cicdlab2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>cicdlab2</name>
+  <distributionManagement>
+  <snapshotRepository>
+    <id>calculator</id>
+    <name>calculator</name>
+    <url>http://localhost:8081/repository/calculator/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
