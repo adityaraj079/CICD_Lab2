@@ -4,17 +4,4 @@
   <artifactId>cicdlab2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>cicdlab2</name>
-  <settings>
-  <pluginGroups>
-    <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
-  </pluginGroups>
-  <profiles>
-    <profile>
-      <id>sonar</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-    </profile>
-  </profiles>
-</settings>
 </project>
